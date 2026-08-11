@@ -1,4 +1,5 @@
 :root{
+    --color-cacao: hsl(12, 40%, 20%);
     --color-cafe: hsl(24, 45%, 28%);      /* café oscuro */
     --color-dorado: hsl(38, 70%, 55%);    /* dorado/ámbar */
     --color-crema: hsl(30, 40%, 85%);     /* crema claro */
@@ -74,8 +75,9 @@ body{
     color: white;
     background: repeating-linear-gradient(
         to right,
-        var(--color-cafe) 0 56px,
-        var(--color-dorado) 56px 112px
+        var(--color-cafe) 0 48px,
+        var(--color-dorado) 48px 96px,
+        var(--color-cacao) 96px 144px
     );
 }
 
